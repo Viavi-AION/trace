@@ -1,4 +1,4 @@
-# Trace package [![GoDoc](https://godoc.org/github.com/SpirentOrion/trace?status.svg)](http://godoc.org/github.com/SpirentOrion/trace)
+# Trace package [![GoDoc](https://godoc.org/gopkg.in/Viavi-AION/trace.v2?status.svg)](http://godoc.org/gopkg.in/Viavi-AION/trace.v2)
 
 Trace is a [golang][golang] package that implements a distributed
 tracing capability inspired by Google's [Dapper][dapper].  Traces may
@@ -13,7 +13,7 @@ scenarios.
 
 To install the package:
 
-    $ go get github.com/SpirentOrion/trace
+    $ go get gopkg.in/Viavi-AION/trace.v2
 
 ## Tracing Data Model
 
@@ -62,10 +62,10 @@ formats or backends (e.g. databases) may be performed by types implementing the
 
 ## Example
 
-A simple [example](https://github.com/SpirentOrion/trace/blob/v2/example/main.go)
+A simple [example](https://github.com/Viavi-AION/trace/blob/v2/example/main.go)
 is provided to demonstrate trace recording via the JSON recorder:
 
-    $ cd $GOPATH/src/gopkg.in/SpirentOrion/trace.v2/example
+    $ cd $GOPATH/src/gopkg.in/Viavi-AION/trace.v2/example
     $ go run main.go
 
 Separately:
