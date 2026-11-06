@@ -7,8 +7,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/SpirentOrion/trace"
-	"github.com/SpirentOrion/trace/yamlrec"
+	"github.com/Viavi-AION/trace"
+	"github.com/Viavi-AION/trace/yamlrec"
 )
 
 func ServeHTTP(rw http.ResponseWriter, req *http.Request) {

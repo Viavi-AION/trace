@@ -1,4 +1,4 @@
-# Trace package [![GoDoc](https://godoc.org/github.com/SpirentOrion/trace?status.svg)](http://godoc.org/github.com/SpirentOrion/trace)
+# Trace package [![GoDoc](https://godoc.org/github.com/Viavi-AION/trace?status.svg)](http://godoc.org/github.com/Viavi-AION/trace)
 
 Trace is a [golang][golang] package that implements a distributed
 tracing capability inspired by Google's [Dapper][dapper].  Traces may
@@ -13,7 +13,7 @@ scenarios.
 
 To install the package:
 
-    $ go get github.com/SpirentOrion/trace
+    $ go get github.com/Viavi-AION/trace
 
 ## Tracing Data Model
 
@@ -56,15 +56,15 @@ Currently, two recording backend packages are provided:
 
 | Backend | Import Path |
 | :-- | :-- |
-| DynamoDB | `github.com/SpirentOrion/trace/dynamorec` |
-| YAML | `github.com/SpirentOrion/trace/yamlrec` |
+| DynamoDB | `github.com/Viavi-AION/trace/dynamorec` |
+| YAML | `github.com/Viavi-AION/trace/yamlrec` |
 
 ## Example
 
-A simple [example](https://github.com/SpirentOrion/trace/blob/master/example/main.go)
+A simple [example](https://github.com/Viavi-AION/trace/blob/master/example/main.go)
 is provided with trace recording via the YAML recorder:
 
-    $ cd $GOPATH/src/github.com/SpirentOrion/trace/example
+    $ cd $GOPATH/src/github.com/Viavi-AION/trace/example
     $ go run main.go
 
 Separately:

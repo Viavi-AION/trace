@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/SpirentOrion/trace",
+	"ImportPath": "github.com/Viavi-AION/trace",
 	"GoVersion": "go1.4.2",
 	"Deps": [
 		{

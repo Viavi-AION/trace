@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/SpirentOrion/trace"
+	"github.com/Viavi-AION/trace"
 	"gopkg.in/yaml.v2"
 )
 
