@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/SpirentOrion/trace"
+	"github.com/Viavi-AION/trace"
 	"github.com/goamz/goamz/aws"
 	"github.com/goamz/goamz/dynamodb"
 )
