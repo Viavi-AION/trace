@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/SpirentOrion/trace"
+	"gopkg.in/Viavi-AION/trace.v2"
 )
 
 func ServeHTTP(rw http.ResponseWriter, req *http.Request) {
